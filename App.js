@@ -1,20 +1,49 @@
+import React from "react"
+
+import ReactDOM from "react-dom/client"
+import { useEffect,useState } from "react";
+
+import Header from "./Components/Header";
+import Body from "./Components/Body"
 
 
 
+/* b
+  -header 
+    -logo
+    -nav-items
+  -Body
+     -Searchbar -searchbtn 
+     -returarantcontainer
+        -restrocards 
+   -footer
 
 
-const heading=React.createElement("div",{id:"parent"},React.createElement("div",{id:"child"},[React.createElement("h1",{},"hello there"),React.createElement("h2",{},"hello there")]));
-
-const root = ReactDOM.createRoot(document.getElementById("root"))
+*/
 
 
+// let rating="*"
+const App =() =>{
 
-console.log(heading);
+   
 
+    return (
+       <div className="app">
+           <Header/>
+        
+     <Body></Body>
+       
+        
 
-root.render(heading);
+       </div>
+       
+        
+    )
+}
 
-// root.render()
+const root =ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(<App/>);
 
 
 

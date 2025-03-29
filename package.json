@@ -1,0 +1,33 @@
+{
+  "name": "react-basics",
+  "version": "1.0.0",
+  "description": "it is a react basics",
+  
+  "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandubhati1997/react-basics.git"
+  },
+  "author": "chanderveer singh bhati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandubhati1997/react-basics/issues"
+  },
+  "homepage": "https://github.com/chandubhati1997/react-basics#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "browserlist": [
+    "last 2 versions"
+  ]
+
+}
